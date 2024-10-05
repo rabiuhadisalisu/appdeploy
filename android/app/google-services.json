@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1007019127774",
+    "project_id": "rabyte-nride",
+    "storage_bucket": "rabyte-nride.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1007019127774:android:d9e3a05fcc78e9a579634f",
+        "android_client_info": {
+          "package_name": "com.rabyte.drive.client"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUqMZt2_PMn7KRZnFQ1tKis5H-KEkru20"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
