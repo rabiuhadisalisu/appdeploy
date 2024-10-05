@@ -20,8 +20,11 @@ jobs:
       - name: Set up Flutter on macOS (M1/M2 Support)
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.3.9'  # Replace with the desired stable version
-          architecture: 'arm64'  # Explicitly specify the architecture
+          flutter-version: '3.3.9'  # Use Flutter version that includes Dart 3.2.0 or higher
+          architecture: 'arm64'  # Explicitly specify the architecture for Apple Silicon
+
+      - name: Disable Flutter Analytics
+        run: flutter config --no-analytics
 
       - name: Install Flutter dependencies
         run: flutter pub get
