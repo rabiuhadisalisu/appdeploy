@@ -17,10 +17,11 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: Set up Flutter on macOS
+      - name: Set up Flutter on macOS (M1/M2 Support)
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: 'stable'
+          flutter-version: '3.3.9'  # Replace with the desired stable version
+          architecture: 'arm64'  # Explicitly specify the architecture
 
       - name: Install Flutter dependencies
         run: flutter pub get
